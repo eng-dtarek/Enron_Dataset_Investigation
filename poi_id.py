@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 import pickle
-sys.path.append("../tools/")
+sys.path.append("./tools/")
 
 from feature_format import featureFormat, targetFeatureSplit
 from tester import test_classifier, dump_classifier_and_data
@@ -118,14 +118,6 @@ clf = GridSearchCV(_clf, params)
 clf = clf.fit(features, labels)
 print clf.best_estimator_
 """
-### Task 5: Tune your classifier to achieve better than .3 precision and recall 
-### using our testing script.
-### Because of the small size of the dataset, the script uses stratified
-### shuffle split cross validation. For more info: 
-### http://scikit-learn.org/stable/modules/generated/sklearn.cross_validation.StratifiedShuffleSplit.html
-
-test_classifier(clf, my_dataset, features_list)
-#print clf.feature_importances_
 ### Dump your classifier, dataset, and features_list so 
 ### anyone can run/check your results.
 dump_classifier_and_data(clf, my_dataset, features_list)
