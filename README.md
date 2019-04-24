@@ -4,9 +4,8 @@ This project is a part of the [Data Analyst Nanodegree](https://www.udacity.com/
 
 -- Project Status: Completed
 
-## Project Intro/Objective
-
-The purpose of this project is to build a prediction model to identify POI from non POI in Enron dataset given some features using Machine learning algorithms to detect the underlying patterns for POI from the given features.
+## Project Introduction
+In 2000, Enron was one of the largest companies in the United States. By 2002, it had collapsed into bankruptcy due to widespread corporate fraud. In the resulting Federal investigation, there was a significant amount of typically confidential information entered into public record, including tens of thousands of emails and detailed financial data for top executives. In this project, I play detective, and put my skills to use by building a person of interest identifier based on financial and email data made public as a result of the Enron scandal.
 
 ## Methods Used
 
@@ -22,7 +21,8 @@ The purpose of this project is to build a prediction model to identify POI from 
 
 ## Project Description
 
-I explored the [dataset](https://github.com/eng-dtarek/Enron_Dataset_Investigation/blob/master/my_dataset.pkl) to get an overview and define the outliers, used SelectKBest for features selection, applied multiple Machine Learning Algorithms [Gaussian Naive Bayes, Decision Tree, SVM], validated my analysis and used evaluation metrics to measure their performance.
+The purpose of this project is to build a prediction model to identify POI from non POI in Enron dataset given some features using Machine learning algorithms to detect the underlying patterns for POI from the given features.
+I explored the [dataset](https://github.com/eng-dtarek/Enron_Dataset_Investigation/blob/master/my_dataset.pkl) to get an overview and define the outliers, used SelectKBest for features selection, applied multiple Machine Learning Algorithms (Gaussian Naive Bayes, Decision Tree, SVM), validated my analysis and used evaluation metrics to measure their performance.
 The best resulted model achieved 85% accuracy, 0.43 precision, and 0.32 recall using Gaussian Naive Bayes. (for more details see this [documentation](https://github.com/eng-dtarek/Enron_Dataset_Investigation/blob/master/Enron%20Submission%20Free-Response%20Questions.pdf))
 
 ## Getting Started
